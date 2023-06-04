@@ -8,7 +8,7 @@ const students = [
   
   const studentWithHighestGrade = students.reduce((highestGradeStudent, currentStudent) => {
     if (currentStudent.grade > highestGradeStudent.grade) {
-      return currentStudent;ss
+      return currentStudent;
     } else {
       return highestGradeStudent;
     }
